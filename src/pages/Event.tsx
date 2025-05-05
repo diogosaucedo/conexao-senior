@@ -12,7 +12,7 @@ export const Event = () => {
             Caminhe para uma Vida Mais Saudável e Feliz!
           </h1>
           <img
-            src="./public/training.png" // Assuming this is the relevant image based on Events.tsx
+            src="training.png" // Assuming this is the relevant image based on Events.tsx
             alt="Pessoas caminhando no parque"
             className="w-full h-64 object-cover rounded-lg mb-8 shadow-md"
           />

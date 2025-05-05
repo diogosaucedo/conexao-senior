@@ -16,7 +16,7 @@ export const Events = () => {
       location: "Shopping Estação",
       date: "25 de Agosto de 2025", // Adicionar data
       time: "15:00", // Adicionar hora
-      imageUrl: "./public/talking.png", // Adicionar URL da imagem
+      imageUrl: "talking.png", // Adicionar URL da imagem
     },
     {
       title: "Primeiros Passos no Mundo Digital",
@@ -26,7 +26,7 @@ export const Events = () => {
       location: "Biblioteca Municipal",
       date: "05 de Setembro de 2025", // Adicionar data
       time: "09:30", // Adicionar hora
-      imageUrl: "./public/learning.png", // Adicionar URL da imagem
+      imageUrl: "learning.png", // Adicionar URL da imagem
     },
     {
       title: "Saúde Ativa",
@@ -36,7 +36,7 @@ export const Events = () => {
       location: "Parque das Águas",
       date: "18 de Setembro de 2025", // Adicionar data
       time: "08:00", // Adicionar hora
-      imageUrl: "./public/training.png", // Adicionar URL da imagem
+      imageUrl: "training.png", // Adicionar URL da imagem
     },
     {
       title: "Oficina de Artesanato Criativo",
@@ -46,7 +46,7 @@ export const Events = () => {
       location: "Centro Cultural",
       date: "30 de Setembro de 2025",
       time: "14:00",
-      imageUrl: "./public/creating.png", // Adicionar URL da imagem
+      imageUrl: "creating.png", // Adicionar URL da imagem
     },
   ];
 

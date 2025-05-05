@@ -16,7 +16,7 @@ export const Hero = () => {
         </div>
         <div className="relative group">
           <img
-            src="./public/hero.png"
+            src="hero.png"
             alt="Homem negro idoso com sueter preto, óculos escuros, sentado em uma cadeira laranja com um tablet nas mãos"
             className="w-full h-auto rounded-xl shadow-lg transition-transform duration-300 group-hover:scale-105"
           />
