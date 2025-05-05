@@ -6,6 +6,8 @@ import { PrimeReactProvider } from "primereact/api";
 import { twMerge } from "tailwind-merge";
 import "./index.css";
 import App from "./App.tsx";
+import { Events } from "./pages/Events.tsx";
+import { Event } from "./pages/Event.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -21,6 +23,8 @@ createRoot(document.getElementById("root")!).render(
       <BrowserRouter>
         <Routes>
           <Route index element={<App />} />
+          <Route path="eventos" element={<Events />} />
+          <Route path="evento" element={<Event />} />
         </Routes>
       </BrowserRouter>
     </PrimeReactProvider>

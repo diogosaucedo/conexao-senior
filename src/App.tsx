@@ -1,8 +1,16 @@
+import { Features } from "./components/Features";
+import { Footer } from "./components/Footer";
+import { Hero } from "./components/Hero";
+import { NavBar } from "./components/NavBar";
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <NavBar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
 }
 
