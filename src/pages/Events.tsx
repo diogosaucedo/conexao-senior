@@ -53,8 +53,15 @@ export const Events = () => {
   return (
     <>
       <NavBar />
-      <section className="bg-gradient-to-r from-indigo-50/90 to-purple-50/90 pt-16 pb-20">
-        <h1 className="text-4xl font-bold text-center mb-12 text-slate-900">
+      <section
+        className="bg-gradient-to-r from-indigo-50/90 to-purple-50/90 pt-16 pb-20"
+        role="main"
+        aria-labelledby="eventos-titulo"
+      >
+        <h1
+          id="eventos-titulo"
+          className="text-5xl font-bold text-center mb-12 text-slate-900"
+        >
           Próximos Eventos
         </h1>
         <div className="w-full flex justify-center px-4">
@@ -66,7 +73,7 @@ export const Events = () => {
                   <img
                     alt={event.title}
                     src={event.imageUrl}
-                    className="w-full h-48 object-cover rounded-t-xl"
+                    className="w-full h-48 object-cover rounded-t-xl shadow-md"
                   />
                 }
                 title={
@@ -79,12 +86,12 @@ export const Events = () => {
                 }
                 className="w-full p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border rounded-xl bg-white"
               >
-                <p className="text-slate-700 leading-relaxed mt-3 mb-4">
+                <p className="text-slate-800 text-lg leading-relaxed mt-3 mb-4">
                   {" "}
                   {/* Ajustar margem inferior */}
                   {event.description}
                 </p>
-                <div className="text-sm text-slate-500 mt-4 space-y-2">
+                <div className="text-base text-slate-600 mt-4 space-y-2">
                   {" "}
                   {/* Agrupar informações */}
                   <p className="font-medium">
@@ -105,7 +112,9 @@ export const Events = () => {
                     label="Saiba Mais"
                     icon="pi pi-arrow-right"
                     iconPos="right"
-                    onClick={() => navigate("/evento")} // Adicionar onClick
+                    onClick={() => navigate("/evento")}
+                    className="p-button-lg font-semibold"
+                    aria-label={`Ver mais detalhes sobre o evento ${event.title}`}
                   />
                 </div>
               </Card>

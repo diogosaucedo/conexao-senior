@@ -38,19 +38,24 @@ export const Event = () => {
           </div>
 
           {/* Botão de Registro Duplicado */}
-          <div className="mt-12 text-center bg-indigo-100 p-6 rounded-lg border border-indigo-200">
-            <p className="text-lg font-semibold text-indigo-800">
+          <div
+            className="mt-12 text-center bg-indigo-100 p-8 rounded-lg border-2 border-indigo-200 shadow-md"
+            role="complementary"
+            aria-label="Informações de registro"
+          >
+            <p className="text-2xl font-semibold text-indigo-800 mb-4">
               Vagas limitadas! Garanta sua participação registrando-se agora
               mesmo.
             </p>
-            <p className="text-indigo-700 mt-2">
+            <p className="text-lg text-indigo-700 mt-2">
               Não perca esta oportunidade de cuidar de você e desfrutar de um
               dia agradável em companhia de amigos!
             </p>
             <Button
               label="Registrar Agora"
               icon="pi pi-check-circle"
-              className="mt-4 p-button-lg"
+              className="mt-6 p-button-lg text-xl px-6 py-3"
+              aria-label="Clique para se registrar no evento"
             />
           </div>
 
@@ -119,19 +124,24 @@ export const Event = () => {
             </ul>
           </div>
 
-          <div className="mt-12 text-center bg-indigo-100 p-6 rounded-lg border border-indigo-200">
-            <p className="text-lg font-semibold text-indigo-800">
+          <div
+            className="mt-12 text-center bg-indigo-100 p-8 rounded-lg border-2 border-indigo-200 shadow-md"
+            role="complementary"
+            aria-label="Informações de registro"
+          >
+            <p className="text-2xl font-semibold text-indigo-800 mb-4">
               Vagas limitadas! Garanta sua participação registrando-se agora
               mesmo.
             </p>
-            <p className="text-indigo-700 mt-2">
+            <p className="text-lg text-indigo-700 mt-2">
               Não perca esta oportunidade de cuidar de você e desfrutar de um
               dia agradável em companhia de amigos!
             </p>
             <Button
               label="Registrar Agora"
               icon="pi pi-check-circle"
-              className="mt-4 p-button-lg"
+              className="mt-6 p-button-lg text-xl px-6 py-3"
+              aria-label="Clique para se registrar no evento"
             />
           </div>
         </div>
